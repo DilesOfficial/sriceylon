@@ -142,7 +142,17 @@ export function Footer() {
         <div className="container-custom py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-background/60">
             <p>© {new Date().getFullYear()} Sri Ceylon Tours. All rights reserved.</p>
-            <p>Experience the Heart of Paradise</p>
+            <p>
+              Developed by{" "}
+              <a 
+                href="https://ideacode.org" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                ideacode.org
+              </a>
+            </p>
           </div>
         </div>
       </div>
